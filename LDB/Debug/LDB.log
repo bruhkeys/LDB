@@ -1,0 +1,4 @@
+﻿  login.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\filesystem(13): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\login.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  LDB.vcxproj -> C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\Debug\LDB.exe

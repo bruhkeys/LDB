@@ -1,0 +1,15 @@
+﻿  LDB.cpp
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(71,17): error C2664: 'int _stricmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(71,32): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(189,22): message : see declaration of '_stricmp'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(71,17): message : while trying to match the argument list '(WCHAR [256], const char *)'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(111,22): error C2664: 'int strcmp(const char *,const char *)': cannot convert argument 1 from 'WCHAR [256]' to 'const char *'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(111,37): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h(100,13): message : see declaration of 'strcmp'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(111,22): message : while trying to match the argument list '(WCHAR [256], const char *)'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(118,31): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(149,55): warning C4311: 'type cast': pointer truncation from 'BYTE *' to 'DWORD'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(149,55): warning C4302: 'type cast': truncation from 'BYTE *' to 'DWORD'
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\LDB.cpp(62,16): warning C4477: 'printf' : format string '%p' requires an argument of type 'void *', but variadic argument 1 has type 'uintptr_t'
+  login.cpp
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\login.cpp(13,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data

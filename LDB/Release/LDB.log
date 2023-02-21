@@ -1,0 +1,20 @@
+﻿  LDB.cpp
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(210,31): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\LDB.cpp(17,11): warning C4101: 'bytes_read': unreferenced local variable
+  login.cpp
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\asdf.h(210,31): warning C4838: conversion from 'int' to 'DWORD' requires a narrowing conversion
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\LDB\login.cpp(46,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+login.obj : error LNK2005: "void * process_handle" (?process_handle@@3PAXA) already defined in LDB.obj
+login.obj : error LNK2005: "void __cdecl patchmethod(int,unsigned long,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &,char const *,char const *,char const *)" (?patchmethod@@YAXHKABV?$vector@EV?$allocator@E@std@@@std@@0PBD11@Z) already defined in LDB.obj
+login.obj : error LNK2005: "unsigned int __cdecl find_pattern(struct tagMODULEENTRY32,unsigned char *,char const *,int)" (?find_pattern@@YAIUtagMODULEENTRY32@@PAEPBDH@Z) already defined in LDB.obj
+login.obj : error LNK2005: "unsigned long __cdecl FindSignatureInModule(struct tagMODULEENTRY32,char const *,char const *)" (?FindSignatureInModule@@YAKUtagMODULEENTRY32@@PBD1@Z) already defined in LDB.obj
+login.obj : error LNK2005: "bool __cdecl MemoryCompare(unsigned char const *,unsigned char const *,char const *)" (?MemoryCompare@@YA_NPBE0PBD@Z) already defined in LDB.obj
+login.obj : error LNK2005: "struct tagMODULEENTRY32 __cdecl get_module(char const *,unsigned long)" (?get_module@@YA?AUtagMODULEENTRY32@@PBDK@Z) already defined in LDB.obj
+login.obj : error LNK2005: "class std::vector<unsigned char,class std::allocator<unsigned char> > __cdecl BYTERPM(unsigned int,unsigned int)" (?BYTERPM@@YA?AV?$vector@EV?$allocator@E@std@@@std@@II@Z) already defined in LDB.obj
+login.obj : error LNK2005: "unsigned int * __cdecl scanMemory(void *,unsigned int &)" (?scanMemory@@YAPAIPAXAAI@Z) already defined in LDB.obj
+login.obj : error LNK2005: "class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __cdecl tm_to_readable_time(struct tm)" (?tm_to_readable_time@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@Utm@@@Z) already defined in LDB.obj
+login.obj : error LNK2005: "unsigned int __cdecl find_address(char const *,int,unsigned long)" (?find_address@@YAIPBDHK@Z) already defined in LDB.obj
+login.obj : error LNK2005: "bool __cdecl patch_bytes(unsigned int,class std::vector<unsigned char,class std::allocator<unsigned char> > const &)" (?patch_bytes@@YA_NIABV?$vector@EV?$allocator@E@std@@@std@@@Z) already defined in LDB.obj
+login.obj : error LNK2005: "void __cdecl print_bytes(class std::vector<unsigned char,class std::allocator<unsigned char> > const &)" (?print_bytes@@YAXABV?$vector@EV?$allocator@E@std@@@std@@@Z) already defined in LDB.obj
+login.obj : error LNK2005: "bool __cdecl compareVectors(class std::vector<unsigned char,class std::allocator<unsigned char> > const &,class std::vector<unsigned char,class std::allocator<unsigned char> > const &)" (?compareVectors@@YA_NABV?$vector@EV?$allocator@E@std@@@std@@0@Z) already defined in LDB.obj
+C:\Users\cfm76.8RUHKdYS\Downloads\python\LDB\Release\LDB.exe : fatal error LNK1169: one or more multiply defined symbols found
